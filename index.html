@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Shoe Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg shadow-lg max-w-lg w-full grid grid-cols-2 gap-4">
+        <!-- Image Section -->
+        <div class="p-4">
+            <img src="shoe 1.jpg" alt="Retro Shoe" class="rounded-lg border-2 border-teal-500">
+          
+        </div>
+
+        <!-- Details Section -->
+        <div class="p-4 flex flex-col justify-between">
+            <div>
+                <h2 class="text-xl font-bold">Retro Shoe</h2>
+                <p class="text-lg text-green-500 font-semibold">$89.00 <span class="text-sm text-gray-500">IN STOCK</span></p>
+            </div>
+
+            <!-- Size Options -->
+            <div class="flex gap-2 mt-4">
+                <button class="px-4 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition">XS</button>
+                <button class="px-4 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition">S</button>
+                <button class="px-4 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition">M</button>
+                <button class="px-4 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition">L</button>
+                <button class="px-4 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition">XL</button>
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex items-center gap-4 mt-6">
+                <button class="bg-teal-500 text-white px-6 py-3 rounded-lg hover:bg-teal-600">BUY NOW</button>
+                <button class="border border-black px-6 py-3 rounded-lg hover:bg-gray-200">ADD TO BAG</button>
+                <button class="text-black text-2xl hover:text-red-500">&hearts;</button>
+            </div>
+
+            <!-- Shipping Info -->
+            <p class="text-sm text-gray-500 mt-4">Free shipping on all continental US orders.</p>
+        </div>
+    </div>
+</body>
+</html>
